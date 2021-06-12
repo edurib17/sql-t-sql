@@ -1,4 +1,8 @@
-
+/*
+Usando o banco de dados empresa.sql. Criar uma FUNCÃO que receba o ID de um produto (prod_id) e a quantidade comprada e retorner o valor do preço (prod_price) com desconto conforme as condições seguintes:
+• quantidade <= 3 desconto = 0.2
+• quantidade > 3 desconto = 0.5
+*/
 CREATE or ALTER FUNCTION get_descont
 (
 @id_produto character(50), @quantidade int
