@@ -1,6 +1,16 @@
 /*
 Em uma tabela audit_produtos registrar o id do produto, o usuário, quando a operação foi executada e qual a operação foi (armazenar a informação de deleção, 
 update e insert). Criar a tabela audit_produtos no script. Usar uma TRIGGER para essa
+*/
+
+/*
+Tabela para sql server
+CREATE TABLE  audit_produtos(
+id_produto NVARCHAR(10) NOT NULL,
+usuario NVARCHAR(100) NOT NULL,
+data DATETIME NOT NULL,
+operacao NVARCHAR(1) NOT NULL
+);
 
 */
 
