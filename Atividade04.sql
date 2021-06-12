@@ -1,3 +1,5 @@
+/*  Criar um PROCEDIMENTO para atualizar o preço dos produtos (products). O id e o preço chegarão por parâmetro. */
+
 CREATE OR ALTER PROCEDURE atualizarProduto @preco_produto float,@id_produto character(50)
 AS
 BEGIN
