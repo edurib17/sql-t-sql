@@ -1,4 +1,5 @@
-
+/*
+Criar uma FUNÇAO em pgSQL para contar quantos produtos são vendidos por determinado*/
 CREATE  OR ALTER FUNCTION contar_produtos_vendidos(@id_vendedor int)
 RETURNS @prod_vendidos TABLE
 (contagem int) 
